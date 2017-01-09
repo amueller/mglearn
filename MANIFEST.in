@@ -1,0 +1,2 @@
+include Readme.md
+recursive-include mglearn/datasets *
