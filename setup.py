@@ -5,6 +5,7 @@ setup(
     version="0.1.1",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn'],
+    include_package_data=True,
 
     author="Andreas Mueller",
     author_email="t3kcit@gmail.com",
