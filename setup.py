@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mglearn",
-    version="0.1.1",
+    version="0.1.2",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn'],
     include_package_data=True,
