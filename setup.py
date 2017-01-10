@@ -2,10 +2,10 @@ from setuptools import setup, find_packages
 
 setup(
     name="mglearn",
-    version="0.1.3",
+    version="0.1.4",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
-                      'pillow'],
+                      'pillow', 'cycler'],
     include_package_data=True,
 
     author="Andreas Mueller",
