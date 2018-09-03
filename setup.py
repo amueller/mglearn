@@ -5,7 +5,7 @@ setup(
     version="0.1.6",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
-                      'pillow', 'cycler'],
+                      'pillow', 'cycler', 'imageio'],
     include_package_data=True,
 
     author="Andreas Mueller",
