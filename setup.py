@@ -7,7 +7,7 @@ setup(
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
                       'scipy', 'pillow', 'cycler'],
     setup_requires=['pytest-runner'],
-    tests_require=['pytest'],
+    tests_require=['pytest', 'pytest-cov'],
     include_package_data=True,
 
     author="Andreas Mueller",
