@@ -5,7 +5,9 @@ setup(
     version="0.1.6",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
-                      'pillow', 'cycler'],
+                      'scipy', 'pillow', 'cycler'],
+    setup_requires=['pytest-runner'],
+    tests_require=['pytest'],
     include_package_data=True,
 
     author="Andreas Mueller",
