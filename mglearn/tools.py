@@ -98,11 +98,8 @@ def print_topics(topics, feature_names, sorting, topics_per_chunk=6,
         these_topics = topics[i: i + topics_per_chunk]
         # maybe we have less than topics_per_chunk left
         len_this_chunk = len(these_topics)
-        # get max length of feature names
-        row = []
-        feat_len = []
-        
         #generate list of sorted features and their lengths
+        row = []
         for i in range(n_words):
             row.append(feature_names[sorting[these_topics, i]])
         topic_words = np.array(row).T
