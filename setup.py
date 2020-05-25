@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="mglearn",
-    version="0.1.8",
+    version="0.1.9",
     packages=find_packages(),
     install_requires=['numpy', 'matplotlib', 'scikit-learn', 'pandas',
                       'pillow', 'cycler', 'imageio', 'joblib'],
