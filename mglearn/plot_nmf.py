@@ -4,8 +4,7 @@ import numpy as np
 
 from joblib import Memory
 
-cachedir = "cache"
-memory = Memory(cachedir)
+memory = Memory("cache")
 
 def plot_nmf_illustration():
     rnd = np.random.RandomState(5)
