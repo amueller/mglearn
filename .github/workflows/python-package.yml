@@ -24,7 +24,7 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install pytest
-        apt-get install graphviz
+        sudo apt install -y graphviz
         python -m pip install graphviz
         pip install .
     - name: Test with pytest
