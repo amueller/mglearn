@@ -15,7 +15,7 @@ install mglearn into your Python environment, for some reason or another. You ca
 
 in your terminal, or by running
 
-    !pip install mglearn
+    %pip install mglearn
 
 in Jupyter Notebook.
 

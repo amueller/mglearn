@@ -104,13 +104,3 @@ def plot_2d_separator(classifier, X, fill=False, ax=None, eps=None, alpha=1,
     ax.set_ylim(y_min, y_max)
     ax.set_xticks(())
     ax.set_yticks(())
-
-
-if __name__ == '__main__':
-    from sklearn.datasets import make_blobs
-    from sklearn.linear_model import LogisticRegression
-    X, y = make_blobs(centers=2, random_state=42)
-    clf = LogisticRegression().fit(X, y)
-    plot_2d_separator(clf, X, fill=True)
-    discrete_scatter(X[:, 0], X[:, 1], y)
-    plt.show()
